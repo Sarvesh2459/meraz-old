@@ -11,7 +11,10 @@
 </svelte:head>
 
 <Hero />
-
+<!-- <div *ngIf="loading" class="loader">
+	<img src=".../angular-site/assets/Logo_Center.gif" />
+	<img src="assets/Logo_ring.gif" [ngStyle]="{ display}:{ ringDisplay }" />
+</div> -->
 <!-- <section>
 	<div class="title">
 		<h1>Pronites</h1>

@@ -12,13 +12,14 @@
 	import Footer from './_Footer/Footer.svelte';
 	import PageTransition from '$lib/components/PageTransition.svelte';
 	import '../styles/main.scss';
+	import Loader from './_loader.svelte'
 
 	export let key;
 </script>
 
 <Header />
 <Sidebar />
-
+<Loader />
 <PageTransition {key}>
 	<slot />
 </PageTransition>
